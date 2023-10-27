@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+  <section class="add-cash-section">
+    <h1 class="section-heading">Add Cash</h1>
+    <div class="img">
+        <img src="images/download.png" alt="Logohere">
+    </div>
+    <div class="name-input">
+        <h3>Name</h3>
+        <input type="text" placeholder="Name">
+    </div>
+    <div class="radio-buttons">
+      <input type="radio" name="payment-mode" value="upi"> UPI
+      <input type="radio" name="payment-mode" value="bank"> Bank
+      <br>
+      <input type="radio" name="payment-mode" value="upi"> UPI
+      <input type="radio" name="payment-mode" value="bank"> Bank
+    </div>
+    
+    <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+    </form>
+    <div class="buttons">
+      <button type="submit">Cancel</button>
+      <button type="submit" class="gree">Save</button>
+    </div>
+  </section>
+</body>
+</html>
